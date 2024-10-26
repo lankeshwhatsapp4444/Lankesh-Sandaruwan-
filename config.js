@@ -7,4 +7,4 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "",
 MONGODB: process.env.MONGODB || "",//enter mongo db url හදන විදිය පල්ලෙහාබටන් එකක් ඇති
-};
+};𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=Sn4hDRba#08zijlFmiFkibrDVQ8RP1tTMa_dn8iwuLd_S9iCUKmk
