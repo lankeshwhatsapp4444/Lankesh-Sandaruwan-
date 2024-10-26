@@ -1,10 +1,10 @@
-const fs = require('fs');
+iconst fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
-MONGODB: process.env.MONGODB || "",//enter mongo db url හදන විදිය පල්ලෙහාබටන් එකක් ඇති
+SESSION_ID: process.env.SESSION_ID || "",𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=Sn4hDRba#08zijlFmiFkibrDVQ8RP1tTMa_dn8iwuLd_S9iCUKmk
+MONGODB: process.env.MONGODB ||𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=Sn4hDRba#08zijlFmiFkibrDVQ8RP1tTMa_dn8iwuLd_S9iCUKmk "",//enter mongo db url හදන විදිය පල්ලෙහාබටන් එකක් ඇති
 };
